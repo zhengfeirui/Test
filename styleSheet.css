@@ -1,0 +1,58 @@
+body{
+    background-image: url("background_main.jpg");
+}
+
+.nav >li >a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.nav.navbar-nav.navbar-right{
+    font-family: "lora";
+}
+
+.dropdown-menu{
+    font-size:100%;
+}
+
+.modal-body{
+    width: 300px;
+    margin-left: 0px;
+}
+
+p#alreadyAccount{
+    margin:10px 0px 0px 0px;
+}
+
+button#createAccount{
+    margin:5px 10px 0px 420px;
+}
+
+h4#myModalLabel_signup{
+    margin:20px 0px 0px 0px;
+    text-align:center;
+}
+
+button#signin{
+    margin:0px 10px 0px 480px;
+}
+
+.navbar-inverse{
+    background-image: linear-gradient(to bottom,#210207 0,#222 100%);
+}
+.modal-content{
+    background-color: #dad6d2;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{
+    background-image: linear-gradient(to bottom,#400909 0,#0f0f0f 100%);
+}
+
+.dropdown-menu>li>a{
+    padding:2px 18px;
+    color:#632929;
+}
